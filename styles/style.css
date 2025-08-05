@@ -99,19 +99,20 @@
   object-position: right;
 }
 
-.filter-iam-here {
+.filter-hue-rotate {
+  /*использованы наименования классов по типу фильтра*/
   filter: blur(2px) hue-rotate(90deg) grayscale(50%);
 }
 
-.filter-i-clear {
+.filter-sepia-grayscale {
   filter: sepia(60%) grayscale(30%);
 }
 
-.filter-hands-down {
+.filter-blur {
   filter: blur(10px);
 }
 
-.filter-if-wont-work {
+.filter-saturate {
   filter: saturate(400%);
 }
 
@@ -119,7 +120,7 @@
   filter: invert(80%);
 }
 
-.filter-bypass {
+.filter-sepia {
   filter: sepia(100%);
 }
 
